@@ -47,8 +47,7 @@ int main(void)
 	
 	//创建软件定时器数据收发任务，can1、cna2，不要放太多函数
 	Timer_Send_Create();
-  //更改
-	
+  //更改	
 	//创建状态更新任务
 	App_Info_Create();
 	
